@@ -866,21 +866,145 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    padding: 5px;
+    background: #F3F8FB;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .text320{
-    margin-top: 100;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    gap: 20px;
+}
+.text320 a{
+    text-decoration: none;
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #464646;
+}
+.text320 a img{
+    max-width: 30px;
+    width: 100%;
+}
+.text321 a{
+    position: relative;
+}
+.text321 a img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    align-items: center;
 }
 
+/* site__section-klent */
+.site__section-klent{
+    margin-top: 80px;
+}
+.site__section-klent1 h2{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px; 
+    text-transform: uppercase;
+    color: #464646;
+    margin-bottom: 30px;
+}
+.site__section-klent1 p{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    color: #464646;
+}
+.site__section-oplata{
+    margin-top: 60px;
+}
+.site__section-oplata h3{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #464646;
+}
+.site__section-oplata p{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+    color: #464646;    
+}
+.site__section-kupit{
+    margin-top: 80px;
+}
+.site__section-kupit h3{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #464646;
+    margin-bottom: 30px;
+}
+.site__section-kupit p{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #464646;
+}
 
-
-
-
-
-
-
-
-
-
+.site__section-call{
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    height: 170px;
+}
+.call1 p{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #464646;
+}
+.call1 a{
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #393185;
+}
+.call2 img{
+   max-width: 200px;
+   width: 100%;
+   margin-top: 30px;
+}
 
 
 
